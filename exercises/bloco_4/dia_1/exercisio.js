@@ -138,3 +138,20 @@ else {
     console.log(fT);
 }
 //-------------9-------------
+
+//-------------10-------------
+let productCost = 0;
+let saleValue = 10;
+let tax = 0.20;
+let quantily = 2;
+let totalCost = productCost + (productCost * tax);
+
+
+
+if (productCost <= 0 || saleValue <= 0){
+    console.log('Não pode ter valores igual a zero.');
+}
+else {
+    console.log('Lucro total',(saleValue - totalCost) * quantily);
+}
+//-------------10-------------
