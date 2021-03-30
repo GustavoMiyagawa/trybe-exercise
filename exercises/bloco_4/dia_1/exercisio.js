@@ -47,3 +47,37 @@ else {
     console.log('false', (a+b+c));
 }
 //-------------5-------------
+
+//-------------6-------------
+let pieceChess = 'QueEn';
+
+let piece= pieceChess.toLowerCase();
+
+switch (piece){
+    case "king":
+        console.log(piece, '--> one square in any direction');
+        break
+
+    case "queen":
+        console.log(piece, '--> diagonally, horizontally or vertically any direction.');
+        break
+    
+    case "rook":
+        console.log(piece, '--> horizontally or vertically');
+        break
+
+    case "bishop":
+        console.log(piece, '--> diagonally');
+        break
+
+    case "knight":
+        console.log(piece, '--> in a L shape, two square in a horizontally or vertical direction');
+        
+    case "pawn":
+        console.log(piece, '--> vertically forward one square');
+        break
+    
+    default:
+        console.log('peça inválida');
+}
+//-------------6-------------
