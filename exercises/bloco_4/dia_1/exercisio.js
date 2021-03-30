@@ -1,7 +1,7 @@
 //-------------1-------------
-let a = 56;
-let b = 90;
-let c = 0;
+let a = 1;
+let b = 1;
+let c = 1;
 
 console.log(a + b);
 console.log(a - b);
@@ -81,3 +81,48 @@ switch (piece){
         console.log('peça inválida');
 }
 //-------------6-------------
+
+//-------------7-------------
+let percentGrade = 89;
+let grade;
+
+if (percentGrade >= 90 && percentGrade <= 100){
+    grade = 'A';
+    console.log('Nota', grade);
+}
+else if (percentGrade >= 80 && percentGrade < 90){
+    grade = 'B';
+    console.log('Nota', grade);
+}
+else if (percentGrade >= 70 && percentGrade < 80){
+    grade = 'C';
+    console.log('Nota', grade);
+}
+else if (percentGrade >= 60 && percentGrade < 70){
+    grade = 'D';
+    console.log('Nota', grade);
+}
+else if (percentGrade >= 50 && percentGrade < 60){
+    grade = 'E';
+    console.log('Nota', grade);
+}
+else if (percentGrade >= 0 && percentGrade < 50){
+    grade = 'F';
+    console.log('Nota', grade);
+}
+else {
+    console.log('Valor inválido.');
+}
+//-------------7-------------
+
+//-------------8-------------
+let tF;
+if ((a % 2 === 0) || (b % 2 === 0)  ||(c % 2 === 0)){
+    tF = true;
+    console.log(tF);
+}
+else {
+    tF = false;
+    console.log(tF);
+}
+//-------------8-------------
