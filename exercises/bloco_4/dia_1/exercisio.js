@@ -1,7 +1,7 @@
 //-------------1-------------
-let a = -8;
-let b = 4;
-let c = 10;
+let a = 56;
+let b = 90;
+let c = 0;
 
 console.log(a + b);
 console.log(a - b);
@@ -38,3 +38,12 @@ else {
     console.log('Valor', a , 'é negativo');
 }
 //-------------4-------------
+
+//-------------5-------------
+if (a > 0 && b > 0 && c > 0 && (a+b+c) === 180){
+	console.log('true');
+}
+else {
+    console.log('false', (a+b+c));
+}
+//-------------5-------------
