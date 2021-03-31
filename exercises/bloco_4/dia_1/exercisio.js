@@ -155,3 +155,42 @@ else {
     console.log('Lucro total',(saleValue - totalCost) * quantily);
 }
 //-------------10-------------
+
+//-------------11-------------
+let salary = 3000;
+let inss;
+let ir;
+
+if (salary <= 1556.94){
+    inss = salary - (salary * 0.08);
+}
+else if (salary > 1556.95 && salary < 2594.92){
+    inss = salary - (salary * 0.09);
+}
+else if (salary > 2594.93 && salary < 5189.82){
+    inss = salary - (salary * 0.11);
+}
+else {
+    inss = salary - 570.88;
+}
+console.log(inss)
+
+if (inss < 1903.98){
+    ir = 0;
+}
+else if(inss > 1903.99 && inss < 2826.65){
+    ir = (inss * 0.075)- 142.80;
+}
+else if(inss > 2826.66 && inss < 3751.05){
+    ir = (inss * 0.15) - 354.80;
+}
+else if(inss > 3751.06 && inss < 4664.68){
+    ir = (inss * 0.225) - 636.13;
+}
+else {
+    ir = (inss * 0.275) - 869.36
+}
+
+console.log(ir);
+console.log(inss - ir);
+//-------------11-------------
