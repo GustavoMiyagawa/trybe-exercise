@@ -14,3 +14,7 @@ divCreator.appendChild(divFilho);
 let tagP = document.createElement('p');
 tagP.innerText = 'Fazendo um teste com o parágrafo.';
 divFilho.appendChild(tagP);
+
+let divFilha = document.createElement('div')
+divFilha.className = 'left-content';
+divCreator.appendChild(divFilha);
