@@ -10,3 +10,7 @@ seletorBody.appendChild(divCreator);
 let divFilho = document.createElement('div');
 divFilho.className = 'center-content';
 divCreator.appendChild(divFilho);
+
+let tagP = document.createElement('p');
+tagP.innerText = 'Fazendo um teste com o parágrafo.';
+divFilho.appendChild(tagP);
