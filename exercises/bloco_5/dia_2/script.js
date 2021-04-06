@@ -18,3 +18,7 @@ divFilho.appendChild(tagP);
 let divFilha = document.createElement('div')
 divFilha.className = 'left-content';
 divCreator.appendChild(divFilha);
+
+let divFilha2 = document.createElement('div')
+divFilha2.className = 'right-content';
+divCreator.appendChild(divFilha2);
