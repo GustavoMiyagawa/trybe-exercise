@@ -6,3 +6,7 @@ seletorBody.appendChild(titleH1);
 let divCreator = document.createElement('div');
 divCreator.className = '.main-content';
 seletorBody.appendChild(divCreator);
+
+let divFilho = document.createElement('div');
+divFilho.className = 'center-content';
+divCreator.appendChild(divFilho);
