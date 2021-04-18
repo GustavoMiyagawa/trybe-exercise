@@ -2,3 +2,9 @@
 const pai = document.querySelector('#elementoOndeVoceEsta').parentNode;
 const filho = document.createElement('div');
 pai.appendChild(filho);
+
+//2. Crie um filho para elementoOndeVoceEsta.
+const ondeVoceEsta = document.querySelector('#elementoOndeVoceEsta');
+ondeVoceEsta.appendChild(filho);
+//3. Crie um filho para primeiroFilhoDoFilho .
+//4. A partir desse filho criado, acesse terceiroFilho .
