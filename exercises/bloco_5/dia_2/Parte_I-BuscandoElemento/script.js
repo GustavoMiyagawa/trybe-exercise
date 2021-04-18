@@ -18,4 +18,7 @@ document.querySelector('#elementoOndeVoceEsta').previousElementSibling
 document.querySelector('#elementoOndeVoceEsta').nextSibling
 
 //7. Agora acesse o terceiroFilho a partir de elementoOndeVoceEsta .
-//8. Agora acesse o terceiroFilho a partir de pai .
+document.querySelector('#elementoOndeVoceEsta').nextSibling.nextSibling
+
+//8. Agora acesse o terceiroFilho a partir de pai.
+document.querySelector('#pai').firstChild.nextSibling.nextSibling.nextSibling.nextSibling.nextSibling
