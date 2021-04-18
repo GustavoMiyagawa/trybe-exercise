@@ -15,3 +15,11 @@ primeiroFilhoDoFilho.appendChild(filho);
 document.querySelector('#primeiroFilhoDoFilho').firstChild.id = 'primeiroFilhoDoFilhoDoFilho'
 const primeiroFilhoDoFilhoDoFilho = document.querySelector('#primeiroFilhoDoFilhoDoFilho');
 primeiroFilhoDoFilhoDoFilho.parentNode.parentNode.nextSibling.nextSibling
+
+const divs = document.querySelectorAll('div');
+
+for (let index = 0; index < divs.length; index += 1){
+  if (divs[index].id != 'pai' || divs[index].id != 'elementoOndeVoceEsta' || divs[index].id != 'primeiroFilhoDoFilho'){
+    divs[0].remove();
+  }
+}
