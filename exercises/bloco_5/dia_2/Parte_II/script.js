@@ -10,3 +10,8 @@ ondeVoceEsta.appendChild(filho);
 //3. Crie um filho para primeiroFilhoDoFilho.
 const primeiroFilhoDoFilho = document.querySelector('#primeiroFilhoDoFilho');
 primeiroFilhoDoFilho.appendChild(filho);
+
+//4. A partir desse filho criado, acesse terceiroFilho.
+document.querySelector('#primeiroFilhoDoFilho').firstChild.id = 'primeiroFilhoDoFilhoDoFilho'
+const primeiroFilhoDoFilhoDoFilho = document.querySelector('#primeiroFilhoDoFilhoDoFilho');
+primeiroFilhoDoFilhoDoFilho.parentNode.parentNode.nextSibling.nextSibling
