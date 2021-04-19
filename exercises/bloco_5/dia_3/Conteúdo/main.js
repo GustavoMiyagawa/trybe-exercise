@@ -36,9 +36,16 @@ myWebpage.addEventListener('dblclick', myGithubPage);
 
 
 /*5. Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
-a cor do mesmo;
+a cor do mesmo;*/
+function changeColor(r) {
+  r.target.style.backgroundColor = 'white';
+}
 
-Segue abaixo um exemplo do uso de event.target:
+divUm.addEventListener('mouseover', changeColor);
+divDois.addEventListener('mouseover', changeColor);
+divTres.addEventListener('mouseover', changeColor);
+
+/*Segue abaixo um exemplo do uso de event.target:
 */
 
 function resetText(event) {
